@@ -1,0 +1,27 @@
+# Node modules
+#Contains all installed packages, allowing them to be rebuilt anytime via npm install
+node_modules/
+
+#Build output
+#this will be the compiled frontend code, generated automatically
+#by Vite
+dist/
+build/
+
+#Logs
+#this will be the temporary logs from npm or yarn
+npm-debug.log*
+yarm-debug.log*
+yarn-error.log*
+
+#Environment Variables
+#API keys, etc that are sensitive data, and shouldn't be pushed 
+.env
+
+# OS-specific files
+#this will hodl the macOS/WIndows system files 
+.DS_Store
+Thumbs.db
+
+#VS Code settings
+.vscode/
